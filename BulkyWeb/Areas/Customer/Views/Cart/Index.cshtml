@@ -1,4 +1,5 @@
 ﻿@model ShoppingCartVM
+
 <form method="post">
     <br />
     <div class="card shadow border-0">
@@ -65,8 +66,6 @@
 
                         </div>
                     }
-
-
                 </div>
             </div>
             <div class="card-footer bg-white border-0">
@@ -75,7 +74,7 @@
                         <ul class="list-group mb-4">
                             <li class="d-flex justify-content-between align-items-center">
                                 <h5 class="text-dark fw-semibold text-uppercase"> Total (USD)</h5>
-                                <h4 class="text-dark fw-bolder">@Model.OrderTotal.ToString("c")</h4>
+                                <h4 class="text-dark fw-bolder">@Model.OrderHeader.OrderTotal.ToString("c")</h4>
                             </li>
                         </ul>
                     </div>

@@ -10,19 +10,19 @@ using System.Threading.Tasks;
 
 namespace Bulky.DataAccess.Repository
 {
-    public class CategoryRepository : Repository<Category>, ICategoryRepository
+    public class ApplicationUserRepository : Repository<ApplicationUser>, IApplicationUserRepository
     {
-        private ApplicationDbContext _context;
-        public CategoryRepository(ApplicationDbContext context) : base(context)
-        {
-            _context = context;
-        }
-       
-     
 
-        public void Update(Category obj)
-        {
-            _context.Categories.Update(obj);
-        }
-    }
+			private ApplicationDbContext _db;
+			public ApplicationUserRepository(ApplicationDbContext db) : base(db)
+			{
+				_db = db;
+			}
+			public void Update(ApplicationUser applicationUser)
+			{
+				_db.ApplicationUsers.Update(applicationUser);
+			}
+		
+	}
+   
 }
