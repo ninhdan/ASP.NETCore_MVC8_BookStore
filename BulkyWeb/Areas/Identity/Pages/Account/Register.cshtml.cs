@@ -156,7 +156,7 @@ namespace BulkyWeb.Areas.Identity.Pages.Account
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 
                 user.StreetAddress = Input.StreetAddress;
-                user.City = Input.City;
+                user.Name = Input.Name;
                 user.City = Input.City;
                 user.State = Input.State;
                 user.PostalCode = Input.PostalCode;
