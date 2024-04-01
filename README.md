@@ -32,8 +32,6 @@ One interesting fact is that the project name, "Water7", is inspired by my fondn
 ### Design Patterns
 - Dependency Injection
 - Repository Pattern : UnitOfWork
-## Architecture
-- N-tier Architecture (Separation of Presentation, Business Logic, and Data Access Layers)
 
 ### Database
 - SQL Server 
@@ -43,6 +41,9 @@ One interesting fact is that the project name, "Water7", is inspired by my fondn
 - Git
 ### Deployment
 - Azure Portal
+- 
+## 🏛️ Architecture
+- N-tier Architecture (Separation of Presentation, Business Logic, and Data Access Layers)
 
 ## 🚀 Installation
 1. Clone the repository: `git clone https://github.com/ninhdan/BookStore.Wasm.Api.git`
