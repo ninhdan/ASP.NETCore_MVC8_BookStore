@@ -40,18 +40,16 @@ Build real world e-commerce application using ASP.NET Core MVC
 - Git
 ### Deployment
 - Azure Portal
-- 
+
 ## 🏛️ Architecture
 - N-tier Architecture (Separation of Presentation, Business Logic, and Data Access Layers)
 
 ## 🚀 Installation
-1. Clone the repository: `git clone https://github.com/ninhdan/BookStore.Wasm.Api.git`
-2. Navigate to the project directory: `cd BookStore.Wasm.Api`
+1. Clone the repository: `git clone https://github.com/ninhdan/ASP.NETCore_MVC8_BookStore.git`
+2. Navigate to the project directory: `cd ASP.NETCore_MVC8_BookStore`
 3. Build the application: `dotnet build`
-4. Navigate to server directory: `cd BookStoreApi`
+4. Navigate to server directory: `cd BulkyWeb`
 5. Run the application: `dotnet watch run`
-6. Navigate to client directory: `cd BookStoreBlazorWasm`
-7. Run the application: `dotnet watch run`
 
 ## 🙏 Acknowledgements
 We would like to thank the .NET community and Microsoft for their continuous support and contributions to the ASP.NET Core framework. Special thanks to contributors for their valuable input and feedback.
