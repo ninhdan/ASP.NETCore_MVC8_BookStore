@@ -1,7 +1,6 @@
 # 🐘 BookStore Website MVC
 ## 📝 Description
-A Blazor WebAssembly-powered online bookstore project built on .NET 7. Without delving into the intricacies of coding proficiency, this marks my first personal endeavor. It represents my relentless effort and continuous learning in bringing this website to life.
-One interesting fact is that the project name, "Water7", is inspired by my fondness for the number 7 and the city named "Water 7" in One Piece. Additionally, the color scheme of the website is predominantly ocean blue, reflecting the hues of the sea.
+Build real world e-commerce application using ASP.NET Core MVC
 
 ## ✨ Features
 - 📦 Product Catalog
@@ -55,4 +54,4 @@ One interesting fact is that the project name, "Water7", is inspired by my fondn
 7. Run the application: `dotnet watch run`
 
 ## 🙏 Acknowledgements
-We would like to thank the Blazor community and Microsoft for their continuous support and contributions to the Blazor framework. Special thanks to contributors for their valuable input and feedback.
+We would like to thank the .NET community and Microsoft for their continuous support and contributions to the ASP.NET Core framework. Special thanks to contributors for their valuable input and feedback.
