@@ -28,6 +28,7 @@ Build real world e-commerce application using ASP.NET Core MVC
 - SendGrid
 - DataTables
 - Authentication Facebook, Google and Microsoft
+- Stripe
 ### Design Patterns
 - Dependency Injection
 - Repository Pattern : UnitOfWork
