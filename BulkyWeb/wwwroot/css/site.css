@@ -97,7 +97,7 @@ bg-success {
 
 
 .card {
-    border-color: #425F4B !important;
+    border-color: #C92127 !important;
 }
 
 
@@ -549,3 +549,10 @@ bg-success {
         background-color: #578553;
         border-color: #578553;
     }
+
+.color-red {
+    background: #C92127!important;
+}
+.color-yellow{
+    background:#ffc107!important;
+}
