@@ -2,6 +2,8 @@
 
 
 
+
+
 <div class="row pb-3">
     @foreach(var product in Model)
     {
@@ -11,12 +13,12 @@
                     <div class="card border-0 p-3 shadow border-top border-5 rounded">
                         @if(product.ProductImages!=null && product.ProductImages.Count > 0)
                         {
-                            <img src="@product.ProductImages.FirstOrDefault().ImageUrl" class="card-img-top rounded"/>
+                            <img src="@product.ProductImages.FirstOrDefault().ImageUrl" class="card-img-top rounded" />
                         }
                         else
                         {
-                            <img src="https://placehold.co/500x600/png" class="card-img-top rounded"/> 
-                        
+                            <img src="https://placehold.co/500x600/png" class="card-img-top rounded " />
+
                         }  
                     <div class="card-body pb-0">
                         <div class="pl-1">
